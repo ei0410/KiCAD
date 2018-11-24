@@ -29,27 +29,24 @@ def main():
         if element[-3:] == 'gbl':
             shutil.copy(data_path + "/" + element, save_path)
             os.rename(save_path + "/" + element, save_path + "/" + argv[1] + ".GBL")
-        if element[-3:] == 'gbo':
-            shutil.copy(data_path + "/" + element, save_path)
-            os.rename(save_path + "/" + element, save_path + "/" + argv[1] + ".GBO")
         if element[-3:] == 'gto':
             shutil.copy(data_path + "/" + element, save_path)
             os.rename(save_path + "/" + element, save_path + "/" + argv[1] + ".GTO")
-        if element[-3:] == 'gbs':
+        if element[-3:] == 'gbo':
             shutil.copy(data_path + "/" + element, save_path)
-            os.rename(save_path + "/" + element, save_path + "/" + argv[1] + ".GBS")
+            os.rename(save_path + "/" + element, save_path + "/" + argv[1] + ".GBO")
         if element[-3:] == 'gts':
             shutil.copy(data_path + "/" + element, save_path)
             os.rename(save_path + "/" + element, save_path + "/" + argv[1] + ".GTS")
+        if element[-3:] == 'gbs':
+            shutil.copy(data_path + "/" + element, save_path)
+            os.rename(save_path + "/" + element, save_path + "/" + argv[1] + ".GBS")
         if element[-3:] == 'gm1':
             shutil.copy(data_path + "/" + element, save_path)
             os.rename(save_path + "/" + element, save_path + "/" + argv[1] + ".GML")
-        if element[-8:] == '-PTH.drl':
+        if element[-3:] == 'drl':
             shutil.copy(data_path + "/" + element, save_path)
             os.rename(save_path + "/" + element, save_path + "/" + argv[1] + ".TXT")
-        if element[-9:] == '-NPTH.drl':
-            shutil.copy(data_path + "/" + element, save_path)
-            os.rename(save_path + "/" + element, save_path + "/" + argv[1] + "-NPTH.TXT")
 
     shutil.make_archive(save_path, "zip", save_path)
 
