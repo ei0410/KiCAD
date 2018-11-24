@@ -1,12 +1,12 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,5.0.1-33cea8e~68~ubuntu16.04.1*
-G04 #@! TF.CreationDate,2018-11-23T16:55:50+09:00*
+G04 #@! TF.CreationDate,2018-11-24T10:37:31+09:00*
 G04 #@! TF.ProjectId,BS2103F_photo,425332313033465F70686F746F2E6B69,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Soldermask,Top*
 G04 #@! TF.FilePolarity,Negative*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 5.0.1-33cea8e~68~ubuntu16.04.1) date 2018年11月23日 16時55分50秒*
+G04 Created by KiCad (PCBNEW 5.0.1-33cea8e~68~ubuntu16.04.1) date 2018年11月24日 10時37分31秒*
 %MOMM*%
 %LPD*%
 G01*
